@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 		real altura[5] 
@@ -21,20 +21,17 @@ programa
 			faca{
 				escreva("Informe a altura: ")
 				leia(altura[i])
-				se(altura[i] > 0){
-					crit=1
-				}senao{
+				se(altura[i]<0){
 					limpa()
 					escreva("Valor invalido, digite novamente... \n")
-					crit=0
 				}
 					
-			}enquanto(crit==0)
+			}enquanto(altura[i]<=0)
 		}
 		limpa()
 		para(inteiro i = 0; i< 5;i++){
 
-			escreva("Nome: ", nome[i]," \nAltura? ", mat.arredondar(altura[i],2) , "\n\n")
+			escreva("Nome: ", nome[i]," \nAltura: ", mat.arredondar(altura[i],2) , "\n\n")
 		}
 	}
 }
@@ -43,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 666; 
+ * @POSICAO-CURSOR = 305; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
