@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat	
+	inclua biblioteca Matematica --> mat	
 
 		inteiro opcaoMenu
 
@@ -10,7 +10,7 @@ programa
 
 		real calc_conv = 0.0
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		
 
@@ -131,7 +131,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1529; 
+ * @POSICAO-CURSOR = 1595; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
